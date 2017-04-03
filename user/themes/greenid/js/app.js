@@ -22,11 +22,14 @@ $( document ).ready(function() {
     }
   }
 
-  /*mobileViewUpdate();*/
+  mobileViewUpdate();
 
   $( window ).resize(function() {
-    mobileViewUpdate();
-    mobileNavStatus();
+    var width = $(window).width(), height = $(window).height();
+    if($(window).width() != width && $(window).height() != height){
+      mobileViewUpdate();
+      mobileNavStatus();
+  }
   });
 
   $("#mobile").click(function(e) {
