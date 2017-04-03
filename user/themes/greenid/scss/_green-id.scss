@@ -1,0 +1,217 @@
+$light-background: #f2f6eb;
+$main-green: #6ca21d;
+$text-wit: #fff;
+$text-green-dark: #35470e;
+$grey:  #8c8c8c;
+$grey-light: #b2b2b2;
+
+body, html {
+   height:  100%;
+}
+
+body{
+  background-image: url('../images-iface/back-wood.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  background-size: auto 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body,p{
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 1.9em;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Fjalla One', sans-serif;
+  line-height: 1.2em;
+  color: $text-green-dark;
+}
+
+h1{
+  font-size: 47px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+h2,h3{
+  font-size: 26px;
+  line-height: 38px;
+  margin:0px;
+  color:$main-green;
+}
+
+h5{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+strong{
+  font-weight: 900;
+  color:$main-green;
+}
+.logo{
+  padding: 20px 0px;
+  text-align: center;
+  background-color: $light-background;
+}
+.logo img{
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* --- WELKOM --- */
+
+#welkom{
+  background-color: $main-green;
+  color:white;
+  height: 320px;
+}
+#welkom .welkom-beeld{
+  display:block;
+  float:left;
+  width:60%;
+  height:100%;
+  margin-right: 25px;
+  background-image: url('../images/welkom.jpg');
+  background-position:50% 50%;
+  background-size: cover;
+
+  -moz-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+#welkom .welkom-tekst{
+
+}
+#welkom h5{
+  padding-top:35px;
+  margin-bottom: 19px;
+  text-indent: 20px;
+
+}
+#welkom p{
+  text-indent: 20px;
+  font-weight: 900;
+}
+#welkom span{
+  display:inline-block;
+  width:33px;
+  height:33px;
+  margin-right: 10px;
+
+  background-color: #fff;
+  color: $main-green;
+  text-align:center;
+  line-height: 33px;
+  font-size: 0.8em;
+  font-weight: 800;
+
+  text-align: right;
+  padding-right: 13px;
+}
+#welkom ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#welkom ul li{
+  line-height:45px;
+  text-indent: -25px;
+}
+
+/* --- CONTENT --- */
+.item-blok{
+  display: none;
+}
+.plus{
+  display: inline-block;
+  vertical-align: text-bottom;
+  height:38px;
+  width:38px;
+  margin-right: 10px;
+  background-image: url('../images-iface/plus.svg');
+
+  -webkit-transform: rotate(90deg);     /* Chrome and other webkit browsers */
+  -moz-transform: rotate(90deg);        /* FF */
+  -o-transform: rotate(90deg);          /* Opera */
+  -ms-transform: rotate(90deg);         /* IE9 */
+  transform: rotate(90deg);             /* W3C compliant browsers */
+
+  transition: all 0.3s ease;
+}
+.min{
+  display: inline-block;
+  vertical-align: text-bottom;
+  height:38px;
+  width:38px;
+  margin-right: 10px;
+  background-image: url('../images-iface/min.svg');
+
+  -webkit-transform: rotate(0deg);     /* Chrome and other webkit browsers */
+  -moz-transform: rotate(0deg);        /* FF */
+  -o-transform: rotate(0deg);          /* Opera */
+  -ms-transform: rotate(0deg);         /* IE9 */
+  transform: rotate(0deg);             /* W3C compliant browsers */
+
+  transition: all 0.3s ease;
+}
+h2.accordeon{
+  cursor:pointer;
+}
+p.wspace{
+  height:10px;
+}
+
+p.animated{
+  padding-top: 5px; //was 15px
+}
+.caption p{
+  //margin-left: 17px;
+  padding-left: 15px;
+  border-left: 2px solid $grey-light;
+  color:$grey;
+  font-size: .8em;
+  margin-bottom: 30px;
+}
+.itemBeeld{
+  margin-top:30px;
+}
+.itemBeeld-container{
+  position:relative;
+  float:none;
+}
+.indexr{
+  position:absolute;
+  z-index:5000;
+  top:15px;
+  left:15px;
+  width:36px;
+  height:36px;
+}
+div.beeld img{
+  display: block;
+
+}
+img.single{
+  width:100%;
+}
+div.beeld .itemBeeld-container:nth-child(even){
+  float:none;
+  margin-top:15px;
+}
+.vitaltree{
+  display:block;
+  margin-bottom:30px;
+}
+/* ---- FOOTER ----- */
+.footer p{
+  text-align: center;
+  margin-top: 50px;
+  font-size: .8em;
+  color:$grey;
+}

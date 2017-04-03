@@ -1,0 +1,29 @@
+<div class="item-container">
+<h2 class="accordeon"> {% if page.isFirst() %}<span class="min">{% else %}<span class="plus">{% endif %}</span>{{page.title}}</h2>
+<div class="item-blok" {% if page.isFirst() %} style="display:block" {% endif %}">
+  <p class="animated">{{page.content}}</p>
+  <div class="itemBeeld" class="clearfix">
+    <div class="beeld clearfix">
+      {% for image in page.media.images %}
+        {% if page.media.images|length > 1 %}
+            <div class="itemBeeld-container">
+                <img src="{{image.url}}" />
+
+                <div class="caption">
+                  <p>{{page.header.captions[loop.index0]}}</p>
+               </div>
+
+            </div>
+        {% else %}
+              <img src="{{image.url}}" class="single" />
+              <div class="caption">
+                <p>{{page.header.caption }}</p>
+             </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+</div>
+<p class="wspace"></p>

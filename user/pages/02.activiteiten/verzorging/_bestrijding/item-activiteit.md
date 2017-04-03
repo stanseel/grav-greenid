@@ -1,0 +1,9 @@
+---
+title: Bestrijding van ziekte en plagen
+captions:
+  - Paardenkastanjes worden enorm belaagd door de kastanjemineermot. Rond de stam van de bomen worden plakbanden bevestigd om de vrouwelijke motjes te vangen. De mannelijke motjes – die wel goed kunnen vliegen - worden gevangen met feromoonvallen die in de boom worden opgehangen. Zo controleren we de ernst van de plaag om daarna de kastanjemineermot te kunnen bestrijden.
+  - Sommige zwammen kunnen heel decoratief zijn voor de wandelaar, maar wijzen er vaak op dat er iets ernstigs aan de hand is met de gezondheid van de boom. Andere zwammen zijn heel onopvallend, maar daarom niet minder gevaarlijk. Ze zijn ook vaak maar enkele weken per jaar te zien. Het is daarom altijd uitkijken vooraleer we in een boom klimmen.'
+---
+Voor een efficiënte bestrijding van ziekten en plagen, is een **goede diagnose** noodzakelijk. Tijdens de opleiding in Engeland, werd uitgebreid aandacht besteed aan het herkennen en bestrijden van allerlei aantastingen van **schimmels, bacteriën en insecten**. Bij twijfel wordt er navraag gedaan bij gespecialiseerde firma’s. Door bijscholing en vakliteratuur blijven we op de hoogte van nieuwe aantastingen en hoe die aan te pakken. We worden ook gewaarschuwd wanneer de beste periode eraan komt om bijvoorbeeld de kastanjemineermot te bestrijden. Het **juiste tijdstip** is van groot belang. Te vroeg of te laat ingrijpen heeft helemaal geen zin!
+
+Niet alle aantastingen – en dan spreken we voornamelijk van **zwammen** – kunnen echter bestreden worden. Het is daarom van groot belang te weten wat de zwammen precies doen. Sommige kleine ‘nietszeggende’ zwammetjes kunnen grote schade aanrichten waardoor de stabiliteit van de bomen ondermijnd wordt en ze een gevaar vormen voor hun nietsvermoedende omgeving. **Preventief ingrijpen** is hier de boodschap!

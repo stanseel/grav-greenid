@@ -1,0 +1,89 @@
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+<!DOCTYPE html>
+<html lang="{{ grav.language.getActive ?: theme_config.default_lang }}">
+<head>
+{% block head %}
+    <meta charset="utf-8" />
+    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include 'partials/metadata.html.twig' %}
+
+    <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png') }}" />
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+
+    {% block stylesheets %}
+        {% do assets.addCss('https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Franklin', 100) %}
+        {% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap-grid.css', 99) %}
+        {% do assets.addCss('theme://css-compiled/main.css', 98) %}
+    {% endblock %}
+    {{ assets.css() }}
+
+    {% block javascripts %}
+        {% do assets.addJs('https://use.fontawesome.com/ea8e8bd17a.js', 97) %}
+        {% do assets.addJs('jquery', 100) %}
+        {% do assets.addJs('theme://js/jquery-ui.js', 99) %}
+        {% do assets.addJs('theme://js/app.js', 98) %}
+    {% endblock %}
+    {{ assets.js() }}
+
+{% endblock head%}
+</head>
+<body id="top" class="{{ page.header.body_classes }}">
+<div id="wrapper" class="toggled">
+{% block sidebar %}
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+            <a href="{{ base_url }}">
+                <div class="logo">
+                  <img src="{{ theme_url }}/images-iface/logo-greenid.svg" />
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="act first act-snoeien" href="{{ base_url_relative }}/activiteiten/snoeien">Snoeien</a>
+        </li>
+        <li>
+            <a class="act act-vellen" href="{{ base_url_relative }}/activiteiten/vellen">Vellen</a>
+        </li>
+        <li>
+            <a class="act act-hakselen" href="{{ base_url_relative }}/activiteiten/hakselen">Hakselen</a>
+        </li>
+        <li>
+            <a class="act act-klieven" href="{{ base_url_relative }}/activiteiten/klieven">Klieven</a>
+        </li>
+        <li>
+            <a class="act act-frezen" href="{{ base_url_relative }}/activiteiten/uitfrezen">Uitfrezen</a>
+        </li>
+        <li>
+            <a class="act act-verzorging" href="{{ base_url_relative }}/activiteiten/verzorging">Verzorging</a>
+        </li>
+        <li>
+            <a class="act act-aanplanting" href="{{ base_url_relative }}/activiteiten/aanplanten">Aanplanten</a>
+        </li>
+        <li>
+            <a class="act act-advies" href="{{ base_url_relative }}/activiteiten/advies">Advies</a>
+        </li>
+        <li>
+            <a class="act act-ontmantelen" href="{{ base_url_relative }}/activiteiten/standplaats">Standplaats</a>
+        </li>
+    </ul>
+</div>
+{% endblock %}
+
+{% block body %}
+    <!--  <section id="body"> -->
+
+        {% block content %}{% endblock %}
+
+    <!--  </section> -->
+{% endblock %}
+
+{% block bottom %}
+    {{ assets.js('bottom') }}
+{% endblock %}
+</div><!-- /#wrapper -->
+</body>
+</html>

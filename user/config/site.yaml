@@ -1,0 +1,20 @@
+title: Greenid
+default_lang: nl
+author:
+  name: 'Ides De Vlamynck'
+  email: stijn@stans.be
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'GreenID is uw specialist in boomverzorging sinds 2001'
+  keywords: 'boomverzorging, green, ides, certified, treeworker, snoeien, vellen, hakselen, zaaien, klieven, uitfrezen, verzorging, aanplanten, advies, standplaats'
+  author: 'Ides De Vlaeminck'
+  publisher: 'Stijn Anseel a.k.a. stans.be'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog

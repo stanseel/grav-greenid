@@ -1,0 +1,47 @@
+$light-background: #f2f6eb;
+$main-green: #6ca21d;
+$text-wit: #fff;
+$text-green-dark: #35470e;
+
+#global-nav{
+  font-family: 'Fjalla One', sans-serif;
+  color:$main-green;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+#global-nav  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:right;
+}
+#global-nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 24px;
+}
+#global-nav ul li a{
+    display: block;
+}
+#global-nav ul li.icon{
+  font-size: 24px;
+}
+#global-nav div#mobile{
+  position:absolute;
+  top:-10px;
+  left:20px;
+  width:180px;
+  height:70px;
+  cursor:pointer;
+}
+#global-nav div#mobile div{
+  float:left;
+}
+#global-nav div#mobile div#mobile-logo{
+  width:70px;
+  height:70px;
+}
+#global-nav div#mobile div#mobile-menu{
+  width:70px;
+  height:70px;
+}

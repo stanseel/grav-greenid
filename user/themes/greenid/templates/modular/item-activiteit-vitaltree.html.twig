@@ -1,0 +1,50 @@
+<div class="item-container">
+ {#  <h2 class="">{{page.title}}</h2> #}
+<div class="item-blok" {% if page.isFirst() %} style="display:block; margin-top:-20px" {% endif %}">
+  <p class="animated">{{page.content}}</p>
+  <div class="itemBeeld clearfix" >
+
+  <div class="vrow">
+
+    <div class="beeld vita">
+
+              <img src="{{page.media['vital1.jpg'].url}}" />
+              <div class="caption">
+                <p>{{page.header.caption1}}</p>
+             </div>
+
+
+    </div>{# end /beeld #}
+    <div class="beeld vita even">
+
+              <img src="{{page.media['vital2.jpg'].url}}" />
+              <div class="caption">
+                <p>{{page.header.caption2}}</p>
+             </div>
+
+    </div>{# end /beeld #}
+    </div>{# end /row #}
+    <div class="vrow">
+    <div class="beeld vita">
+
+              <img src="{{page.media['vital3.jpg'].url}}" />
+              <div class="caption">
+                <p>{{page.header.caption3}}</p>
+             </div>
+
+
+    </div>{# end /beeld #}
+    <div class="beeld vita even">
+
+              <img src="{{page.media['vital4.jpg'].url}}" />
+              <div class="caption">
+                <p>{{page.header.caption4}}</p>
+             </div>
+
+
+    </div>{# end /beeld #}
+    </div>{# end /row #}
+  </div>
+</div>
+</div>
+<p class="wspace"></p>
