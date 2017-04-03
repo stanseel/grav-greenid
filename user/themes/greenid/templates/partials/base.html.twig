@@ -43,31 +43,67 @@
             </a>
         </li>
         <li>
+          {% if page.header.menurank == 1 %}
+            <a class="act first act-snoeien-active" href="#">Snoeien</a>
+          {% else %}
             <a class="act first act-snoeien" href="{{ base_url_relative }}/activiteiten/snoeien">Snoeien</a>
+          {% endif %}
         </li>
         <li>
+          {% if page.header.menurank == 2 %}
+            <a class="act act-vellen-active" href="#">Vellen</a>
+          {% else %}
             <a class="act act-vellen" href="{{ base_url_relative }}/activiteiten/vellen">Vellen</a>
+          {% endif %}
         </li>
         <li>
+          {% if page.header.menurank == 3 %}
+            <a class="act act-hakselen-active" href="#">Hakselen</a>
+          {% else %}
             <a class="act act-hakselen" href="{{ base_url_relative }}/activiteiten/hakselen">Hakselen</a>
+          {% endif %}
         </li>
         <li>
+          {% if page.header.menurank == 4 %}
+            <a class="act act-klieven-active" href="#">Klieven</a>
+          {% else %}
             <a class="act act-klieven" href="{{ base_url_relative }}/activiteiten/klieven">Klieven</a>
+          {% endif %}
         </li>
         <li>
+          {% if page.header.menurank == 5 %}
+            <a class="act act-frezen-active" href="#">Uitfrezen</a>
+          {% else %}
             <a class="act act-frezen" href="{{ base_url_relative }}/activiteiten/uitfrezen">Uitfrezen</a>
+          {% endif %}
         </li>
         <li>
+          {% if page.header.menurank == 6 %}
+            <a class="act act-verzorging-active" href="#">Verzorging</a>
+          {% else %}
             <a class="act act-verzorging" href="{{ base_url_relative }}/activiteiten/verzorging">Verzorging</a>
+          {% endif %}
         </li>
         <li>
+          {% if page.header.menurank == 7 %}
+            <a class="act act-aanplanting-active" href="#">Aanplanten</a>
+          {% else %}
             <a class="act act-aanplanting" href="{{ base_url_relative }}/activiteiten/aanplanten">Aanplanten</a>
+          {% endif %}
         </li>
         <li>
+          {% if page.header.menurank == 8 %}
+            <a class="act act-advies-active" href="#">Advies</a>
+          {% else %}
             <a class="act act-advies" href="{{ base_url_relative }}/activiteiten/advies">Advies</a>
+          {% endif %}
         </li>
         <li>
+          {% if page.header.menurank == 9 %}
+            <a class="act act-ontmantelen-active" href="#">Standplaats</a>
+          {% else %}
             <a class="act act-ontmantelen" href="{{ base_url_relative }}/activiteiten/standplaats">Standplaats</a>
+          {% endif %}
         </li>
     </ul>
 </div>

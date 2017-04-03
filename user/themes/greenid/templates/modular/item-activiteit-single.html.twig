@@ -3,21 +3,27 @@
 <div class="item-blok" {% if page.isFirst() %} style="display:block; margin-top:-20px" {% endif %}">
   {# <p class="animated">#}{{page.content}} {# </p> #}
   <div class="itemBeeld" class="clearfix">
+
     <div class="beeld clearfix">
       {% for image in page.media.images %}
         {% if page.media.images|length > 1 %}
-            <div class="itemBeeld-container clearfix">
+            <div class="itemBeeld-container">
                 <img src="{{image.url}}" />
-                <img class="indexr" src="{{ theme_url }}/images-iface/beeldnr{{ loop.index }}.png" />
+
+                <div class="caption">
+                  <p>{{page.header.captions[loop.index0]}}</p>
+               </div>
+
             </div>
         {% else %}
               <img src="{{image.url}}" class="single" />
+              <div class="caption">
+                <p>{{page.header.caption }}</p>
+             </div>
         {% endif %}
       {% endfor %}
     </div>
-    <div class="caption">
-      <p>{{page.header.caption }}</p>
-   </div>
+
   </div>
 </div>
 </div>

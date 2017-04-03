@@ -1,5 +1,6 @@
 ---
 title: Boomverzorging
+menurank: 6
 template: activiteiten
 content:
     items: @self.modular

@@ -1,6 +1,8 @@
 ---
 title: Advies
-caption: 'Foto 1&#58; via meetinstrumenten wordt een 3D-voorstelling gemaakt van de structuur van de stam over 1m. De resultaten waren doorslaggevend om de boom te vellen. <br> Foto 2&#58; de stamvoet van deze boom werd beschadigd door het in- en uitrijden tijdens bouwwerken. Vraag ons advies om dit te voorkomen.'
+captions:
+  - Via meetinstrumenten wordt een 3D-voorstelling gemaakt van de structuur van de stam over 1m. De resultaten waren doorslaggevend om de boom te vellen.
+  - De stamvoet van deze boom werd beschadigd door het in- en uitrijden tijdens bouwwerken. Vraag ons advies om dit te voorkomen.
 ---
 Als je het even niet meer weet, je met je handen in het haar zit of er gewoon wat twijfel is ontstaan omtrent de bomen in je tuin, in een park of langs de weg, kan een extra, professionele opinie verhelderend zijn.
 

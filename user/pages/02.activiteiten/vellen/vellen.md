@@ -1,5 +1,6 @@
 ---
 title: Bomen vellen
+menurank: 2
 template: activiteiten
 content:
     items: @self.modular

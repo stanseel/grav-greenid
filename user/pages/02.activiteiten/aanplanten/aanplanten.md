@@ -1,5 +1,6 @@
 ---
 title: Aanplanten
+menurank: 7
 template: activiteiten
 content:
     items: @self.modular

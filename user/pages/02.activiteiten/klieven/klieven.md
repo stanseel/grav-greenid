@@ -1,5 +1,6 @@
 ---
 title: Klieven
+menurank: 4
 template: activiteiten
 content:
     items: @self.modular

@@ -1,5 +1,6 @@
 ---
 title: Uitfrezen
+menurank: 5
 template: activiteiten
 content:
     items: @self.modular

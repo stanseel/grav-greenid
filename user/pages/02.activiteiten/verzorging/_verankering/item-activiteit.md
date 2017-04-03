@@ -1,6 +1,8 @@
 ---
 title: Verankering
-caption: 'Foto&#39;s 1&#58; Deze verankeringen houden de hele kroon bij elkaar. Door de vele plakoksels zouden de zware gesteltakken kunnen uitscheuren.<br> Foto&#39;s 2&#58; Deze verankering heeft tot doel de uit elkaar groeiende bomen overeind te houden.'
+captions:
+  - Deze verankeringen houden de hele kroon bij elkaar. Door de vele plakoksels zouden de zware gesteltakken kunnen uitscheuren.
+  - Deze verankering heeft tot doel de uit elkaar groeiende bomen overeind te houden.
 ---
 Soms kan het nuttig zijn takken te **verankeren** om bijvoorbeeld takbreuk, uitscheuren van takken,… te voorkomen en op die manier de levensduur van de boom te verlengen.
 

@@ -1,5 +1,6 @@
 ---
 title: Advies
+menurank: 8
 template: activiteiten
 content:
     items: @self.modular

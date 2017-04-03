@@ -1,5 +1,6 @@
 ---
 title: Bomen snoeien
+menurank: 1
 template: activiteiten
 content:
     items: @self.modular

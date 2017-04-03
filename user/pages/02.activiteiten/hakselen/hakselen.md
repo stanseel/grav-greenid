@@ -1,5 +1,6 @@
 ---
 title: Hakselen
+menurank: 3
 template: activiteiten
 content:
     items: @self.modular
