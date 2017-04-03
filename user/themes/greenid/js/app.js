@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 
+  var width = $(window).width(), height = $(window).height();
+
   function mobileNavStatus(){
     var checkClass = $("#wrapper").attr("class");
     //var pad = window.location.protocol + "//" + window.location.host + "/" + "green-id/grav/user/themes/greenid/images-iface";
@@ -25,8 +27,9 @@ $( document ).ready(function() {
   mobileViewUpdate();
 
   $( window ).resize(function() {
-    var width = $(window).width(), height = $(window).height();
-    if($(window).width() != width && $(window).height() != height){
+    console.log("resized" + width + height);
+    if($(window).width() != width || $(window).height() != height){
+      console.log("newzize");
       mobileViewUpdate();
       mobileNavStatus();
   }
