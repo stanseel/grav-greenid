@@ -2,7 +2,7 @@ $light-background: #f2f6eb;
 $main-green: #6ca21d;
 $text-wit: #fff;
 $text-green-dark: #35470e;
-$grey:  #8c8c8c;
+$grey:  #757575;
 $grey-light: #b2b2b2;
 
 body, html {
@@ -21,6 +21,7 @@ body{
 
 body,p{
   font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
   line-height: 1.9em;
 }
 
@@ -43,7 +44,7 @@ h2,h3{
   color:$main-green;
 }
 
-h5{
+h5,h6{
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -67,65 +68,47 @@ a:link,a{
   color:$main-green;
 }
 /* --- WELKOM --- */
-
-#welkom{
+#contactbox{
   background-color: $main-green;
-  color:white;
-  height: 320px;
+  color: white;
+  padding:25px 20px;
+  text-align: left;
 }
-#welkom .welkom-beeld{
-  display:block;
-  float:left;
-  width:60%;
-  height:100%;
-  margin-right: 25px;
-  background-image: url('../images/welkom.jpg');
-  background-position:50% 50%;
-  background-size: cover;
-
-  -moz-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
-  -webkit-transform: scale(-1, 1);
-  transform: scale(-1, 1);
+#contactbox h5{
+  text-align: center;
+  margin:0 0 15px;
 }
-#welkom .welkom-tekst{
-
+#contactbox h6{
+  text-align: center;
+  margin:0 0 15px;
+  text-transform: none;
+  font-weight: bolder;
 }
-#welkom h5{
-  padding-top:35px;
-  margin-bottom: 19px;
-  text-indent: 20px;
-
+#contactbox ul{
+  padding-left: 20px;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
 }
-#welkom p{
-  text-indent: 20px;
-  font-weight: 900;
-}
-#welkom span{
-  display:inline-block;
-  width:33px;
-  height:33px;
-  margin-right: 10px;
-
-  background-color: #fff;
-  color: $main-green;
-  text-align:center;
-  line-height: 33px;
-  font-size: 0.8em;
-  font-weight: 800;
-
-  text-align: right;
-  padding-right: 13px;
-}
-#welkom ul{
+#contactbox ul li{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
-#welkom ul li{
-  line-height:45px;
-  text-indent: -25px;
+#contactbox ul li i{
+  text-align: center;
+  width:35px;
 }
+#welkom{
+}
+.welkom-beeld{
+  display:block;
+  margin-top:40px;
+  margin-bottom:30px;
+}
+.welkom-tekst p{
+  margin-top:40px;
+}
+
+
 
 /* --- CONTENT --- */
 .item-blok{
@@ -215,6 +198,9 @@ div.beeld .itemBeeld-container:nth-child(even){
 .footer p{
   text-align: center;
   margin-top: 50px;
-  font-size: .8em;
+  font-size: 12px;
   color:$grey;
+}
+.footer{
+  padding-bottom:25px;
 }

@@ -1,5 +1,30 @@
 /* ------- SIDEBAR -------- */
-
+@media(min-width:992px) {
+  /* ---- HOME ---- */
+  #contactbox{
+    float:right;
+    padding:30px;
+    margin-left: 40px;
+    text-align: left;
+  }
+  .welkom-tekst p{
+    font-size: 20px;
+    overflow: hidden;
+  }
+  #contactbox h5{
+    text-align: center;
+    margin:0 0 15px;
+  }
+  #contactbox h6{
+    text-align: center;
+    margin:0 0 15px;
+    text-transform: none;
+    font-weight: bolder;
+  }
+  #contactbox ul{
+    padding-left: 5px;
+  }
+}
 @media(min-width:768px) {
     #wrapper {
         width: 95%;
@@ -50,7 +75,6 @@
     div.beeld img.single{
       width: 100%;
     }
-
     /* ---- GLOBAL NAV ---- */
 
     #global-nav{

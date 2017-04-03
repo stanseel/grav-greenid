@@ -63,5 +63,5 @@ form:
 Hebt u een vraag, wilt u een offerte voor een opdracht of willt u gewoon even kennis maken?
 
 U kan ons bellen op **050 615 002** of **0495 68 57 13** en faxen op **050 615 006**.<br>
-Een E-mail sturen kan u doen naar [info@greenid.be](mailto:info@greenid.be).<br>
+Een E-mail sturen kan u doen naar **[info@greenid.be](mailto:info@greenid.be)**.<br>
 Daarnaast kan u ook mailen via het onderstaand contactformulier. <br>Wij nemen binnen enkele dagen gegarandeerd contact met u op.
