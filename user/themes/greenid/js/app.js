@@ -2,8 +2,8 @@ $( document ).ready(function() {
 
   function mobileNavStatus(){
     var checkClass = $("#wrapper").attr("class");
-    var pad = window.location.protocol + "//" + window.location.host + "/" + "green-id/grav/user/themes/greenid/images-iface";
-
+    //var pad = window.location.protocol + "//" + window.location.host + "/" + "green-id/grav/user/themes/greenid/images-iface";
+    var pad = window.location.protocol + "//" + window.location.host + "/" + "grav-greenid/user/themes/greenid/images-iface";
     if(checkClass == "toggled"){
       $("#mobile-img").attr("src",pad+"/mobile-close.svg");
     }else{
