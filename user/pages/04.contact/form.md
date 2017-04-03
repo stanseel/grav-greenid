@@ -9,7 +9,7 @@ form:
         - name: name
           label: Naam en voornaam
           placeholder: Geef hier je naam in
-          autofocus: on
+          autofocus: off
           autocomplete: on
           type: text
           validate:
