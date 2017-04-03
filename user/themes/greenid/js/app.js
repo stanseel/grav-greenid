@@ -22,7 +22,7 @@ $( document ).ready(function() {
     }
   }
 
-  mobileViewUpdate();
+  /*mobileViewUpdate();*/
 
   $( window ).resize(function() {
     mobileViewUpdate();
