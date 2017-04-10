@@ -7,10 +7,10 @@ taxonomies:
   - category
   - tag
 metadata:
-  generator: 'Build with grav by stans.be'
-  description: 'GreenID is uw specialist in boomverzorging sinds 2001'
-  keywords: 'boomverzorging, green, ides, certified, treeworker, snoeien, vellen, hakselen, zaaien, klieven, uitfrezen, verzorging, aanplanten, advies, standplaats'
-  author: 'Ides De Vlaeminck'
+  generator: 'Built by stans.be'
+  description: 'GreenID, gecertifieerde specialist in boomverzorging sinds 2001'
+  keywords: 'boomverzorging, westvlaanderen, west, vlaanderen, green, id, ides, certified, treeworker, snoeien, vellen, hakselen, zaaien, klieven, uitfrezen, verzorging, aanplanten, advies, standplaats'
+  author: 'Ides De Vlamynck'
   publisher: 'Stijn Anseel'
 summary:
   enabled: true
