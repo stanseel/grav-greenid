@@ -49,7 +49,7 @@ form:
             body: "{% include 'forms/data.html.twig' %}"
             from: "{{ config.plugins.email.from }}"
             to:
-              - "{{ config.plugins.email.from }}"
+              - "{{ config.plugins.email.to }}"
               - "{{ form.value.email }}"
         - save:
             fileprefix: contact-
