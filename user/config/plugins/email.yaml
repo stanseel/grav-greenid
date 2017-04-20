@@ -1,14 +1,17 @@
 enabled: true
 from: info@greenid.be
 from_name: 'Green Id Website'
-to: stijn@stans.be
+to: website.greenid@gmail.com
+to_name: 'Ides De Vlamynck '
 mailer:
-  engine: mail
+  engine: smtp
   smtp:
-    server: localhost
+    server: mail.greenid.be
     port: 25
     encryption: none
+    user: info@greenid.be
+    password: gr33n1d000
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
-debug: false
+debug: true
