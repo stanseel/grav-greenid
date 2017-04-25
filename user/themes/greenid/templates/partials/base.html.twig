@@ -41,10 +41,10 @@
 {% block sidebar %}
 <div id="sidebar-wrapper">
     <ul class="sidebar-nav">
-        <li class="sidebar-brand">
+        <li class="sidebar-brand" itemscope itemtype="http://schema.org/ProfessionalService">
             <a href="{{ base_url_absolute }}">
-                <div class="logo">
-                  <img src="{{ theme_url }}/images-iface/logo-greenid.svg" />
+                <div class="logo" >
+                  <img itemprop="logo" src="{{ theme_url }}/images-iface/logo-greenid.svg" alt="greenID logo" />
                 </div>
             </a>
         </li>
