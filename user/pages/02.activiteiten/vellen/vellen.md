@@ -12,4 +12,6 @@ content:
             - _stormschade
             - _opkuis
     pagination: false
+metadata:
+    description: 'GreenID: bomen omhakken, vellen of ontmantelen'
 ---
