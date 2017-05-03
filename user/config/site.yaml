@@ -21,3 +21,11 @@ blog:
   route: /blog
 routes:
   /uitfrezen: '/activiteiten/uitfrezen'
+  /snoeien: '/activiteiten/snoeien'
+  /vellen: '/activiteiten/vellen'
+  /hakselen: '/activiteiten/hakselen'
+  /klieven: '/activiteiten/klieven'
+  /verzorging: '/activiteiten/verzorging'
+  /aanplanten: '/activiteiten/aanplanten'
+  /advies: '/activiteiten/advies'
+  /standplaats: '/activiteiten/standplaats'
