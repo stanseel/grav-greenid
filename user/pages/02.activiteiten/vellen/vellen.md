@@ -13,5 +13,5 @@ content:
             - _opkuis
     pagination: false
 metadata:
-    description: 'GreenID: bomen omhakken, vellen of ontmantelen'
+    description: 'GreenID: bomen omzagen, vellen of ontmantelen'
 ---
