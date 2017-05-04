@@ -4,6 +4,7 @@ composer.lock
 cache/*
 assets/*
 logs/*
+user/data/*
 
 # OS Generated
 .DS_Store*
