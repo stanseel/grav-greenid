@@ -1,5 +1,0 @@
-
-name: Stijn
-email: stijn@stans.be
-message: testbericht 
-

@@ -1,5 +1,0 @@
-
-name: Stijn Anseel de paashaas 
-email: stijn@stans.be
-message: Dit is een test op zondagnamiddag om 17u26
-

@@ -1,5 +1,0 @@
-
-name: stijnanseel vanop de site 
-email: stijn@stans.be
-message: testbericht van Stijn 
-

@@ -1,5 +1,0 @@
-
-name: Stijn Anseel
-email: stijn@stans.be
-message: testje met Ides 
-
