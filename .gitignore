@@ -5,6 +5,8 @@ cache/*
 assets/*
 logs/*
 user/data/*
+user/config/*
+system/*
 
 # OS Generated
 .DS_Store*
